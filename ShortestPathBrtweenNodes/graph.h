@@ -1,6 +1,7 @@
 #include <vector>
 #include <map>
 #include <cmath>
+#include <stdexcept>
 
 template <typename Vertex = int, typename Weight = double>
    class graph
