@@ -1,9 +1,14 @@
 #include "Vector_.h"
 
-template<class T>
+
+template<typename T>
 std::ostream& operator<<(std::ostream& os, const Vector_<T>& v)
 {
-	
+	os << "[ ";
+	for (auto i=0;i<v.size;i++)
+		os << v._Arr[i] << " ";
+	os << "]\n";
+	return os;
 }
 
 
@@ -13,6 +18,7 @@ int main()
 	//Vector_<int> vec = std::move(myvec); // move c-tor
 	Vector_<int> vec;
 	vec = myvec; // copy assignment 
+	std::cout << vec;
 	vec.contains();
 	myvec.contains();
 	myvec.push_back_(12);
