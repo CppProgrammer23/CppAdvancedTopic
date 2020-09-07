@@ -36,6 +36,7 @@ public:
 
 	Vector_& operator=(const Vector_&);
 
-	friend std::ostream& operator<<(std::ostream&, const Vector_&);
+	template<typename Y>
+	friend std::ostream& operator<<(std::ostream&, const Vector_<Y>&);
 };
 #endif
