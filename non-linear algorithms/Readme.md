@@ -80,3 +80,17 @@ You can use 2 methods:
     find_Quadratic_probing(value): bool. finding in Quadratic probing mode.
     
     remove_Quadraticr_probing(value): bool. deleting a value in Quadratic probing mode.
+    
+# **Bloom Filter:**
+
+In contrast to the Hash Table and BST algorithms, this class is not templatized.
+
+The Bloom Filter offers the following methods:
+
+    find(key): void. it allows you to find a key entered by the user.
+    
+    insert(key): void. it allows to insert a key.
+    
+Behind the scene, this algorithm uses a function that allows to choice the 3 values to fill in the vector.
+
+**N.B.: The ctor will throw an std::bad_alloc is the size entered is less than 3.**
