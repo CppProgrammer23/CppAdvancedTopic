@@ -93,4 +93,4 @@ The Bloom Filter offers the following methods:
     
 Behind the scene, this algorithm uses a function that allows to choice the 3 values to fill in the vector.
 
-**N.B.: The ctor will throw an std::bad_alloc is the size entered is less than 3.**
+**N.B.: The ctor will throw an std::bad_alloc if the size entered is less than 3.**
