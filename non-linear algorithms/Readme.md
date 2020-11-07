@@ -1,4 +1,4 @@
-# Binary Search Tree, Graphs, Heaps, Balanced Tree, N-ary Tree, Hash Tables
+# Binary Search Tree, Graphs, Heaps, Balanced Tree, N-ary Tree, Hash Tables, Divide and Conquer 
 
 The different alogorithms will be found in a .dll with .lib and the necessary include files.
 
@@ -26,7 +26,7 @@ This class provides different methods to perform the standard algorithm **bst**:
 
     find(value): bool. to find a value. Be aware, this method throw an exception (const char*) if there's no data in the tree.
 
-    remove(value): bool. to delete a value.
+    remove(value): void. to delete a value.
 
     in_order(): void. to get the ordered Tree.
 
@@ -94,3 +94,9 @@ The Bloom Filter offers the following methods:
 Behind the scene, this algorithm uses a function that allows to choice the 3 values to fill in the vector.
 
 **N.B.: The ctor will throw an std::bad_alloc if the size entered is less than 3.**
+
+# **Divide and Conquer**
+
+Here we will see the merge sort and quicksort algorithms and why we need both of them. Also we will see the binary search algorithm. Those are function template.
+
+
