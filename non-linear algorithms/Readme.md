@@ -31,6 +31,16 @@ This class provides different methods to perform the standard algorithm **bst**:
     in_order(): void. to get the ordered Tree.
 
 
+# **Graphs**
+
+This class is accepting only integral template parameter.
+
+    get edges, the method is: get_vertices(): std::size_t
+    
+    get the vector which contains all edges: e(): std::vector<Edge<T>>
+    
+    add_edge(Edge<T>&& e): void. Be aware, this method throw an exception if the edge is out of range
+
 # **Hash Tables**
 
 This class is a generic class that can be performed on those types:
@@ -94,6 +104,16 @@ The Bloom Filter offers the following methods:
 Behind the scene, this algorithm uses a function that allows to choice the 3 values to fill in the vector.
 
 **N.B.: The ctor will throw an std::bad_alloc if the size entered is less than 3.**
+
+# **Kruskall's MST or Disjoint-Set**
+
+This class accepts only integral template parameter.
+
+    add_mst(const T& set): void
+    
+    find(T const& _val): std::vector<_node>::iterator
+    
+    union_set(const T& x, const T& y): void
 
 # **Divide and Conquer**
 
