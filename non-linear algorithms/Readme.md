@@ -18,7 +18,7 @@ The Binary Search Tree is a generic class that can be performed on those types:
 
     short
 
-    long, long long. In other word, the available types are the **fundamental** types.
+    long, long long. In other word, the available types are the fundamental types.
 
 This class provides different methods to perform the standard algorithm **bst**:
 
