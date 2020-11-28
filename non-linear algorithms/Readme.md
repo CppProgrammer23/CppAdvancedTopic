@@ -4,6 +4,8 @@ The different alogorithms will be found in a .dll with .lib and the necessary in
 
 This project need to be compiled with -std=c++2a because it uses concepts and a **x86** platform.
 
+_**The pre-release v1.0 can be found at:**_ https://github.com/CppProgrammer23/CppAdvancedTopic/releases/tag/v1.0-beta
+
 # **Binary Search Tree**
 
 The Binary Search Tree is a generic class that can be performed on those types:
